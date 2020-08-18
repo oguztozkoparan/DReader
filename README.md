@@ -1,5 +1,5 @@
 # DReader
-Simple Pdf viewer application built with electronJS.
+Simple Pdf viewer application built with ElectronJS. Developed for self education purposes, to learn ElectronJS.
 
 # Demo
 It will be available for distribution later on in installable form.
