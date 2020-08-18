@@ -8,7 +8,7 @@
   },
   "keywords": [],
   "author": "Dustbreaker",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "electron": "^9.1.0"
   },
