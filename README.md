@@ -9,6 +9,8 @@ cd DReader
 npm install
 npm start
 ```
+# Screenshot
+![DReader](https://github.com/oguztozkoparan/DReader/blob/master/temps/screenshot.png)
 
 # License
 The contents of this repository are licensed under the GNU General Public License v3.0.
