@@ -1,0 +1,19 @@
+{
+  "name": "dreader",
+  "version": "1.0.0",
+  "description": "Pdf viewer application built with electronJS.",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "Dustbreaker",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^9.1.0"
+  },
+  "dependencies": {
+    "electron-store": "^6.0.0",
+    "pdfjs-dist": "^2.4.456"
+  }
+}

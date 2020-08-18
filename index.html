@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>DReader</title>
+  </head>
+  <body>
+    <header id="titlebar">
+      <div id="drag-region">
+        <div id="window-controls">
+          <div class="button" id="menu-button">
+            <img class="icon" src="./img/menu.png" draggable="false" />
+          </div>
+
+          <div class="window-title">
+            <span>DREADER</span>
+          </div>
+
+          <div id="system-buttons">
+            <div class="button" id="min-button">
+              <img class="icon" src="./img/min.png" draggable="false" />
+            </div>
+
+            <div class="button" id="max-button">
+              <img class="icon" src="./img/max.png" draggable="false" />
+            </div>
+
+            <div class="button" id="close-button">
+              <img class="icon" src="./img/exit.png" draggable="false" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="navigation">
+      <div class="tabs"></div>
+      <div class="add-tab" onclick="addTab()">&#10010;</div>
+    </div>
+
+    <div class="main">
+      <div class="rens"></div>
+    </div>
+
+    <script src="./src/titlebar.js"></script>
+    <script src="./src/titlemenu.js"></script>
+    <script src="./src/upload.js"></script>
+    <script src="./src/pdfviewer.js"></script>
+    <script src="./src/tabs.js"></script>
+    <script src="./src/tSwitch.js"></script>
+    <script src="./src/shortcut.js"></script>
+  </body>
+</html>
